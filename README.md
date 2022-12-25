@@ -1,6 +1,7 @@
 # Depth Estimation Using Stereo Cameras
 ## Overview
-The main idea of solving for depth using a stereo camera involves the concept of triangulation and stereo matching. The formal depends on good calibration and rectification to constrain the problem so that it can be model on a 2D plane known as the epipolar plane, which greatly reduces the latter to a line search along the epipolar line.
+Using a stereo camera, depth is determined by the concept of triangulation and stereo matching. By constraining the problem on a 2D plane known as the epipolar plane, we can simplify the formal search to a line search along the epipolar line.
+
 ## Approach
 1. Identify similar points from feature descriptors.
 2. Match feature correspondence using a matching cost function.
